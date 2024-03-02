@@ -1,0 +1,111 @@
+
+body{
+    height: 5cm;
+    width: 100%;
+  
+background-color: #ff1212;
+}
+
+
+.counter-section i {
+    display: block;
+    margin: 0 0 10px
+}
+
+.counter-section span.counter {
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px
+}
+
+.counter-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.counter-icon {
+    top: 25px;
+    position: relative
+}
+
+.counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left;
+}
+
+.counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px;
+}
+
+.counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 4PX 10px 0 0;
+}
+
+.counter-subheadline span {
+    float: right;
+}
+
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+
+.wrapper {
+    height: 50%;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    
+}
+
+.typing-demo {
+    width: 22CH;
+    animation: typing 15s steps(15), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+ 
+.yash{
+background-color: rgba(131, 131, 131, 0.655);
+/* background: rgba(255, 0, 0, 0.217); */
+    border-radius: 25px;
+   
+   
+}
+
